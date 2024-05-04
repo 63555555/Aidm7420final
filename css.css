@@ -1,0 +1,125 @@
+* {margin: 0; padding: 0;}
+.nav_top {
+    width: 1000px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_top .left {
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.nav_top .left img {
+    width: 40px;
+    margin-right: 10px;
+}
+.nav_top .left h3 {
+    font-size: 16px;
+}
+.nav_top .left h3 span {
+    display: block;
+    color: #ff403a;
+    font-size: 14px;
+}
+.nav_top h2 {
+    font-size: 40px;
+}
+.nav_top h2 span {
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+}
+.nav_top .right {
+    width: 30%;
+    text-align: right;
+}
+.nav_top .right a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #666666;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+.nav_top .right .a2 {
+    background: #ff403a;
+    color: #ffffff;
+    padding: 4px 10px;
+}
+.nav {
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    box-shadow: 0 3px 5px #e1e1e1;
+    padding: 10px 0;
+    margin: 15px auto;
+}
+.nav .box {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav .box img {
+    width: 24px;
+}
+.nav .box a {
+    text-decoration: none;
+    color: #222222;
+}
+.nav .box a.xz,.nav .box a:hover {
+    color: #ff403a;
+}
+.section {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.section li {
+    border-top: 2px solid #222222;
+    list-style: none;
+    font-size: 14px;
+}
+.section li.span {
+    border: 0;
+    width: 1px;
+    height: auto;
+    background: #e1e1e1;
+}
+.section li h3 {
+    font-size: 16px;
+    padding: 10px 0;
+}
+.img_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section li img {
+    width: 70px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.p1{
+    width:1000px;
+    margin: auto;
+}
+.p1 p{
+    font-size: 16px;
+}
+.p1 img{
+    width: 320px;
+  text-align: center;
+}
+.p1 video{
+    width: 290px;
+
+}
+.p2{
+    width: 1000px;
+
+    margin: auto;
+}
